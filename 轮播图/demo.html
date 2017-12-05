@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>轮播图 demo</title>
+    <style>
+    img {
+        width: 650px;
+        height: 320px;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="myPicbox">
+        <a href="#"><img src="img/1.jpg" alt=""></a>
+        <a href="#"><img src="img/2.jpg" alt=""></a>
+        <a href="#"><img src="img/3.jpg" alt=""></a>
+        <a href="#"><img src="img/4.jpg" alt=""></a>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+    <script type="text/javascript">
+    	var myPicbox = new dPicbox("myPicbox");
+	myPicbox.init(650, 320);
+    </script>
+</body>
+
+</html>
